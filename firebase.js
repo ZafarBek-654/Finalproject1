@@ -3,15 +3,15 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "ТВОЙ_API_KEY",
+  apiKey: "AIzaSyAf86pqlgxKdx9FBaxHF7q_Tf0uV-SXBiE",
   authDomain: "birgasite-uz.firebaseapp.com",
   projectId: "birgasite-uz",
   storageBucket: "birgasite-uz.firebasestorage.app",
-  messagingSenderId: "ТВОЙ_SENDER_ID",
-  appId: "ТВОЙ_APP_ID"
+  messagingSenderId: "280369824408",
+  appId: "1:280369824408:web:c6c957067c2d88153cc6ed",
+  measurementId: "G-09MZ2BCFH8"
 };
 
-const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
 export const auth = getAuth(app);
